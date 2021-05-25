@@ -21,6 +21,7 @@ Project is created with:
 To run this project,  :
 
 Download TwitterMavenProj/target/TwitterProj.jar
+,,,
 Navigate to the direcotry where the file is downloaded.
 For Windows
 Edit the jar using any Zip Utility softwares and modify the config.properties and mention the authentication keys of Twitter

@@ -21,11 +21,15 @@ Project is created with:
 To run this project,  :
 
 Download TwitterMavenProj/target/TwitterProj.jar
-,,,
+
 Navigate to the direcotry where the file is downloaded.
+
 For Windows
+
 Edit the jar using any Zip Utility softwares and modify the config.properties and mention the authentication keys of Twitter
+
 $ cd <FileDownloadPath>
+	
 Run the below command for posting to Twitter. 
 Argument 'post' is to indicate to post to Twitter followed by the Tweet.
 $ java -jar TwitterProj.jar post "<Tweet Content>"

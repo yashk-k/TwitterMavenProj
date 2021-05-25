@@ -31,17 +31,27 @@ Edit the jar using any Zip Utility softwares and modify the config.properties an
 $ cd <FileDownloadPath>
 	
 Run the below command for posting to Twitter. 
+	
 Argument 'post' is to indicate to post to Twitter followed by the Tweet.
-$ java -jar TwitterProj.jar post "<Tweet Content>"
+	
+	$ java -jar TwitterProj.jar post "<Tweet Content>"
+	
 Argument 'retrieve' is to fetch the Timeline
-$ java -jar TwitterProj.jar retrieve
+
+	$ java -jar TwitterProj.jar retrieve
 
 
 For Linux/macOS
+	
 Edit the jar using the command below and modify the config.properties and mention the authentication keys of Twitter
-$ cd <FileDownloadPath>
-$ vim TwitterProj.jar
+	
+	$ cd <FileDownloadPath>
+	$ vim TwitterProj.jar
+
 Argument 'post' is to indicate to post to Twitter followed by the Tweet.
-$ java -jar TwitterProj.jar post "<Tweet Content>"
+	
+	$ java -jar TwitterProj.jar post "<Tweet Content>"
+
 Argument 'retrieve' is to fetch the Timeline
-$ java -jar TwitterProj.jar retrieve
+
+	$ java -jar TwitterProj.jar retrieve

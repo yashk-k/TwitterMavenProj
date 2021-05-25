@@ -32,7 +32,7 @@ public class PostTweet {
 
     public static void main(String[] args) {
         if ("post".equals(args[0])) {
-            postTweet("Hey there! This is an automated post from Yash!");
+            postTweet(args[1]);
         } else if ("retrieve".equals(args[0])) {
             RetrieveTimeline.retrieveTimeLine();
         }
